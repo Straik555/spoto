@@ -1,0 +1,10 @@
+node_modules
+.next
+.storybook
+amplify
+android
+coverage
+ios
+public
+/assets/map-loader.json
+/assets/offline.json

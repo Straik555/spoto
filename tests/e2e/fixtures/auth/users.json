@@ -1,0 +1,12 @@
+{
+  "email": {
+    "po": "one@test.com",
+    "ppu": "cveqno5@mailto.plus",
+    "hm": "one@hm.com",
+    "hr": "cveqno3@mailto.plus",
+    "sa": "one@root.com",
+    "oa": "one@admin.com",
+    "corp": "cveqno6@mailto.plus"
+  },
+  "password": "Qwerty1@"
+}

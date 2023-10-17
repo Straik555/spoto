@@ -1,0 +1,45 @@
+.dashedBorder {
+  background-image: repeating-linear-gradient(
+      -2deg,
+      #ffffff,
+      #ffffff 11px,
+      transparent 11px,
+      transparent 20px,
+      #ffffff 20px
+    ),
+    repeating-linear-gradient(
+      88deg,
+      #ffffff,
+      #ffffff 11px,
+      transparent 11px,
+      transparent 20px,
+      #ffffff 20px
+    ),
+    repeating-linear-gradient(
+      178deg,
+      #ffffff,
+      #ffffff 11px,
+      transparent 11px,
+      transparent 20px,
+      #ffffff 20px
+    ),
+    repeating-linear-gradient(
+      268deg,
+      #ffffff,
+      #ffffff 11px,
+      transparent 11px,
+      transparent 20px,
+      #ffffff 20px
+    );
+  background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+}
+
+.dashedBorderDeskop {
+  background-size: 3px 100%, 100% 3px, 3px 100%, 100% 3px;
+}
+
+.dashedBorderMobile {
+  background-size: 1.5px 100%, 100% 1.5px, 1.5px 100%, 100% 1.5px;
+}

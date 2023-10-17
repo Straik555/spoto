@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "co.spoto.guramispoto",
+      "sha256_cert_fingerprints": [
+        "75:D4:E6:23:54:59:C6:66:1A:B3:1F:C3:0E:A6:FB:2E:B4:EC:B4:CC:02:B5:9C:99:DA:AB:10:D6:44:BB:D0:64"
+      ]
+    }
+  }
+]

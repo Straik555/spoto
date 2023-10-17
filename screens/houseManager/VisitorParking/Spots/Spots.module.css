@@ -1,0 +1,37 @@
+.dashedBorder {
+  background-image: repeating-linear-gradient(
+      -2deg,
+      #4e77f7,
+      #4e77f7 11px,
+      transparent 11px,
+      transparent 20px,
+      #4e77f7 20px
+    ),
+    repeating-linear-gradient(
+      88deg,
+      #4e77f7,
+      #4e77f7 11px,
+      transparent 11px,
+      transparent 20px,
+      #4e77f7 20px
+    ),
+    repeating-linear-gradient(
+      178deg,
+      #4e77f7,
+      #4e77f7 11px,
+      transparent 11px,
+      transparent 20px,
+      #4e77f7 20px
+    ),
+    repeating-linear-gradient(
+      268deg,
+      #4e77f7,
+      #4e77f7 11px,
+      transparent 11px,
+      transparent 20px,
+      #4e77f7 20px
+    );
+  background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+}

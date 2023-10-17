@@ -1,0 +1,27 @@
+.toastWrapper :global(.Toastify__toast) {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+
+.toastWrapper :global(.Toastify__toast.Toastify__toast-theme--light) {
+  @apply font-semibold;
+}
+
+.toastWrapper :global(.Toastify__toast-body) {
+  margin: 0;
+  padding: 0;
+}
+
+.toastWrapper :global(.Toastify__toast--error) {
+  background: #ffe2e2;
+  color: #f74e4e;
+}
+
+.toastWrapper :global(.Toastify__toast--success) {
+  background: #e1f4df;
+  color: #47b43e;
+}
+.toastWrapper :global(.Toastify__toast--info) {
+  background: #edf0fb;
+  color: #4e77f7;
+}

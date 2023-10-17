@@ -1,0 +1,25 @@
+.reactVerificationCodeInput input {
+  border: 0 !important;
+  border-bottom: solid 3px #cbd4ee !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  color: #cbd4ee !important;
+  margin-right: 8px;
+  font-size: 24px !important;
+  line-height: 36px !important;
+  @apply font-semibold !font-poppins;
+}
+
+.reactVerificationCodeInput input:focus {
+  border-bottom: solid 3px #4e77f7 !important;
+  color: #4e77f7 !important;
+}
+
+.reactVerificationCodeInput input:not([value='']) {
+  border-bottom: solid 3px #4e77f7 !important;
+  color: #4e77f7 !important;
+}
+
+.reactVerificationCodeInput input:last-child {
+  margin-right: 0;
+}

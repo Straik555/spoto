@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Spoto</string>
+    <string name="title_activity_main">Spoto</string>
+    <string name="package_name">co.spoto.guramispoto</string>
+    <string name="custom_url_scheme">co.spoto.guramispoto</string>
+</resources>

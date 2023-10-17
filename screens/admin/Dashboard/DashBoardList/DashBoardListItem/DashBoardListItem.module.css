@@ -1,0 +1,14 @@
+.spotsContainer {
+  @apply flex flex-wrap;
+}
+
+.spotsContainer > div {
+  flex: 1;
+  max-width: 50%;
+  min-width: 49%;
+  margin-top: 5px;
+}
+
+.spotsContainer > div:nth-child(odd) {
+  margin-right: 5px;
+}

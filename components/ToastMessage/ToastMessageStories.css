@@ -1,0 +1,28 @@
+.Toastify__toast {
+  min-height: 51px;
+}
+
+.Toastify__toast.Toastify__toast-theme--light {
+  @apply font-semibold;
+}
+
+.Toastify__toast-body {
+  margin: 0;
+}
+
+.Toastify__toast--error {
+  padding: 9px 10px;
+  background: #ffe2e2;
+  color: #f74e4e;
+}
+
+.Toastify__toast--success {
+  background: #e1f4df;
+  color: #47b43e;
+  padding: 9px 51px;
+}
+.Toastify__toast--info {
+  background: #edf0fb;
+  color: #4e77f7;
+  padding: 9px 51px;
+}

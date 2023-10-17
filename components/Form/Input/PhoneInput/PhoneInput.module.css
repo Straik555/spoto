@@ -1,0 +1,41 @@
+.phoneInputContainer :global(.selected-flag) {
+  padding-left: 24px;
+}
+
+.phoneInputContainer :global(.selected-flag) :global(.flag) {
+  transform: scale(2);
+}
+
+.phoneInputContainer :global(.arrow) {
+  background-image: url('../../../../assets/images/arrow-down.png');
+  width: 8px !important;
+  height: 4px !important;
+  background-position: center;
+  border: 0 !important;
+  transform: scale(0.5);
+}
+
+.phoneInputContainerAustralia :global(.selected-flag) {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.phoneInputContainerAustralia :global(.selected-flag) :global(.au) {
+  background-image: url('../../../../assets/images/australian-flag.png');
+  width: 38px;
+  height: 20px;
+  background-position: center;
+  position: unset !important;
+  margin-top: unset !important;
+}
+
+.phoneInputContainerAustralia :global(.arrow) {
+  background-image: url('../../../../assets/images/arrow-down.png');
+  width: 8px !important;
+  height: 4px !important;
+  background-position: center;
+  left: 49px !important;
+  border: 0 !important;
+}

@@ -1,0 +1,15 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-spotoui-prod-133405-authRole",
+      "UnauthRoleArn": "arn:aws:iam::172268267884:role/amplify-spotoui-prod-133405-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::172268267884:role/amplify-spotoui-prod-133405-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-spotoui-prod-133405-deployment",
+      "UnauthRoleName": "amplify-spotoui-prod-133405-unauthRole",
+      "StackName": "amplify-spotoui-prod-133405",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:172268267884:stack/amplify-spotoui-prod-133405/a00e2e00-80e6-11ec-bc7a-0a7024168650",
+      "AmplifyAppId": "d12w4c208xrqzj"
+    }
+  }
+}

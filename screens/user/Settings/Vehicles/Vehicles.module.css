@@ -1,0 +1,58 @@
+.wrapper {
+  @apply flex flex-col h-full bg-bg grow;
+}
+
+.cardWrapper {
+  @apply border border-blue-2 rounded-xl mb-2;
+  @apply overflow-hidden;
+  width: 100%;
+}
+
+.cardLogo,
+.cardLogoDefault {
+  @apply flex items-center justify-center relative w-full h-[152px] border-b border-blue-2;
+}
+
+.cardLogo img,
+.cardLogoDefault img {
+  @apply w-auto max-w-full h-auto max-h-full absolute;
+}
+
+.cardLogoDefault:before {
+  @apply absolute w-full h-full flex text-4xl items-center font-bold justify-center text-blue-3 bg-blue-4;
+  @apply left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4;
+  content: 'SPOTO';
+}
+
+.cardButtons {
+  @apply absolute top-2 right-2 z-10;
+}
+
+.cardButton {
+  @apply flex mb-2 justify-center items-center cursor-pointer bg-white border-2 w-8 h-8 border-primary;
+  border-radius: 50%;
+}
+
+.buttonAddHeader {
+  @apply w-auto;
+  @apply text-xs;
+  @apply font-medium;
+  @apply text-primary;
+  padding: 7px 10px;
+}
+
+.cardLogoDesktop,
+.cardLogoDesktopDefault {
+  @apply flex items-center justify-center relative w-full h-[253px] border border-blue-2 w-[273px] rounded-l-[10px];
+}
+
+.cardLogoDesktop img,
+.cardLogoDesktopDefault img {
+  @apply w-auto max-w-full h-auto max-h-full absolute w-[273px];
+}
+
+.cardLogoDesktopDefault:before {
+  @apply absolute w-full h-full flex text-4xl items-center font-bold justify-center text-blue-3 bg-blue-4;
+  @apply left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4;
+  content: 'SPOTO';
+}

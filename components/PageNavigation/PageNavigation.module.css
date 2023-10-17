@@ -1,0 +1,8 @@
+.wrapper {
+  filter: drop-shadow(4.38095px 4.38095px 13.1429px rgba(211, 211, 248, 0.2));
+}
+
+.wrapperItem > div > div {
+  width: max-content !important;
+  border: none !important;
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "co.spoto.guramispoto",
+	"appName": "Spoto",
+	"webDir": "out",
+	"bundledWebRuntime": false
+}

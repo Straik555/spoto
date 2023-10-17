@@ -1,0 +1,44 @@
+@import './base.css';
+@import './components.css';
+@import './utilities.css';
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  font-feature-settings: 'case' 1, 'rlig' 1, 'calt' 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+* {
+  font-family: 'Poppins', sans-serif !important;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+
+#__next {
+  min-height: 100%;
+  position: relative;
+}
